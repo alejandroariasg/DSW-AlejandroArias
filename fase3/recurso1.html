@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS Template</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<header>
+  <h2>Recurso 1</h2>
+</header>
+
+<section>
+  <nav>
+    <div class="sidenav">
+        <a href="./index.html">Inicio</a>
+        <button class="dropdown-btn">Temas 
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container">
+            <a href="./tema1.html">Tema 1</a>
+            <a href="./tema2.html">Tema 2</a>
+        </div>
+        <button class="dropdown-btn">Recursos Digitales
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container">
+            <a href="./recurso1.html">Recurso 1</a>
+            <a href="./recurso2.html">Recurso 2</a>
+        </div>
+        <button class="dropdown-btn">Aprendizaje
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container">
+            <a href="#">Aprendizaje 1</a>
+            <a href="#">Aprendizaje 2</a>
+        </div>
+        <a href="./auotr.html">Autor</a>
+    </div>
+    <aside style="text-align: center;">
+      <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" 
+      frameborder="0"height="300" width="340"></iframe>
+    </aside>
+  </nav>
+  
+  <article>
+    <div style="text-align: center;">
+        <br><br>
+        <iframe width="800" height="400"
+            src="https://www.youtube.com/embed/A8Gi4lJRDpQ" f
+            rameborder="0">
+        </iframe>
+    </div>
+   
+
+  </article>
+</section>
+
+<footer>
+  <p>DISEÑO DE SITIOS WEB - (301122A_953)</p>
+</footer>
+
+</body>
+</html>
+
+<script>
+    /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+    var dropdown = document.getElementsByClassName("dropdown-btn");
+    var i;
+    
+    for (i = 0; i < dropdown.length; i++) {
+      dropdown[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var dropdownContent = this.nextElementSibling;
+      if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+      } else {
+      dropdownContent.style.display = "block";
+      }
+      });
+    }
+</script>
