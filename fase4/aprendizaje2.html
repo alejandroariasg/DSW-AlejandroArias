@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS Template</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+<header>
+  <h2>APRENDIZAJE 2</h2>
+</header>
+
+<section>
+  <nav>
+    <div class="sidenav">
+        <a href="./index.html">Inicio</a>
+        <button class="dropdown-btn">Temas 
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container">
+            <a href="./tema1.html">Tema 1</a>
+            <a href="./tema2.html">Tema 2</a>
+        </div>
+        <button class="dropdown-btn">Recursos Digitales
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container">
+            <a href="./recurso1.html">Recurso 1</a>
+            <a href="./recurso2.html">Recurso 2</a>
+        </div>
+        <button class="dropdown-btn">Aprendizaje
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container">
+            <a href="./aprendizaje1.html">Aprendizaje 1</a>
+            <a href="./aprendizaje2.html">Aprendizaje 2</a>
+        </div>
+        <a href="./auotr.html">Autor</a>
+    </div>
+    <aside style="text-align: center;">
+      <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" 
+      frameborder="0"height="300" width="340"></iframe>
+    </aside>
+  </nav>
+  
+  <article>
+        <form action="">
+            <h3>Selecciona la respuesta correcta</h3>
+            <h4>Establece un contenedor en línea:</h4>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                    <label class="form-check-label" for="inlineRadio1">inline-flex</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                    <label class="form-check-label" for="inlineRadio2">flex-wrap</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                    <label class="form-check-label" for="inlineRadio3">row-reverse</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                    <label class="form-check-label" for="inlineRadio3">wrap-reverse</label>
+                </div>
+            <br><br>
+            <h4>Establece los ítems en una sola línea (no permite que se desborde el contenedor):</h4>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions1" id="inlineRadio1" value="option1">
+                    <label class="form-check-label" for="inlineRadio1">wrap</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions1" id="inlineRadio2" value="option2">
+                    <label class="form-check-label" for="inlineRadio2">justify-content</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions1" id="inlineRadio3" value="option3">
+                    <label class="form-check-label" for="inlineRadio3">walign-items</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions1" id="inlineRadio3" value="option3">
+                    <label class="form-check-label" for="inlineRadio3">wrap-reverse</label>
+                </div>
+                <br><br>
+                <h4>Agrupa los ítems al principio del eje principal:</h4>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions3" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">flex-start</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions3" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">flex-end</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions3" id="inlineRadio3" value="option3">
+                        <label class="form-check-label" for="inlineRadio3">center</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions3" id="inlineRadio3" value="option3">
+                        <label class="form-check-label" for="inlineRadio3">space-between</label>
+                    </div>
+
+                    <br><br>
+                    <h4>Alinea los ítems estirándolos al tamaño del contenedor.:</h4>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">flex-end</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">center</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="inlineRadio3" value="option3">
+                        <label class="form-check-label" for="inlineRadio3">baseline</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="inlineRadio3" value="option3">
+                        <label class="form-check-label" for="inlineRadio3">stretch</label>
+                    </div>
+
+                    <br><br>
+                    <h4>Alinea los ítems en el contenedor según la base del contenido de los ítems del contenedor:</h4>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">baseline</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">stretch</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="inlineRadio3" value="option3">
+                        <label class="form-check-label" for="inlineRadio3">baseline</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="inlineRadio3" value="option3">
+                        <label class="form-check-label" for="inlineRadio3">flex-start</label>
+                    </div>
+
+                    <br><br>
+                    <h4>Distribuye los ítems dejando el mismo espacio alrededor de ellos (izq/dcha):</h4>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">flex-end</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">stretch</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="inlineRadio3" value="option3">
+                        <label class="form-check-label" for="inlineRadio3">center</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="inlineRadio3" value="option3">
+                        <label class="form-check-label" for="inlineRadio3">space-around	</label>
+                    </div>
+            <br><button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+
+  </article>
+</section>
+
+<footer>
+  <p>DISEÑO DE SITIOS WEB - (301122A_953)</p>
+</footer>
+
+</body>
+</html>
+
+<script>
+    /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+    var dropdown = document.getElementsByClassName("dropdown-btn");
+    var i;
+    
+    for (i = 0; i < dropdown.length; i++) {
+      dropdown[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var dropdownContent = this.nextElementSibling;
+      if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+      } else {
+      dropdownContent.style.display = "block";
+      }
+      });
+    }
+</script>
+<style>
+    nav{
+        height: 700px;
+    }
+</style>
